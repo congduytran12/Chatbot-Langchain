@@ -1,0 +1,16 @@
+langchain
+langchainhub
+langchain_community
+langchain_core
+langchain_text_splitters
+langchain_groq
+langchain_ollama
+groq
+ollama
+Requests
+SQLAlchemy
+streamlit
+validators
+fastembed
+pypdf
+duckduckgo_search
