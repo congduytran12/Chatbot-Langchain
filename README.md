@@ -26,6 +26,9 @@ Here are some features of chatbot implementations using Langchain and Streamlit:
 ### Install the dependencies
 ```pip install -r requirements.txt```
 
+### Install Ollama
+Go to https://ollama.com/download/ to install Ollama based on your OS
+
 ### Install Ollama models
 ```ollama pull llama3.1 && ollama pull llama3.2```
 
