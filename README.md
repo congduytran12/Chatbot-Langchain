@@ -32,5 +32,8 @@ Go to https://ollama.com/download/ to install Ollama based on your OS
 ### Install Ollama models
 ```ollama pull llama3.1 && ollama pull llama3.2```
 
+### Obtain Groq API Key
+Go to https://console.groq.com/keys to get Groq API Key
+
 ### Run the chatbot
 Run the command ```streamlit run app.py``` and go to http://localhost:8501 to display the chatbot
