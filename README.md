@@ -21,19 +21,31 @@ Here are some features of chatbot implementations using Langchain and Streamlit:
 -  **Chat with Websites** \
   Enable the chatbot to interact with website contents.
 
-## How to setup the environment
+## How to setup the environment locally (NVIDIA GPU preferred)
 
 ### Install the dependencies
-```pip install -r requirements.txt```
+```shell 
+pip install -r requirements.txt
+```
 
 ### Install Ollama
 Go to https://ollama.com/download/ to install Ollama based on your OS
 
 ### Install Ollama models
-```ollama pull llama3.1 && ollama pull llama3.2```
+```shell 
+ollama pull llama3.1 && ollama pull llama3.2
+```
 
 ### Obtain Groq API Key
 Go to https://console.groq.com/keys to get Groq API Key
 
 ### Run the chatbot
 Run the command ```streamlit run app.py``` and go to http://localhost:8501 to display the chatbot
+
+## How to setup the environment through Docker
+Run the command
+```shell
+docker build -t chatbot-langchain .
+docker run -p 8501:8501 chatbot-langchain 
+```
+Then, go to http://localhost:8501 to display the chatbot
